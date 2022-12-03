@@ -63,7 +63,7 @@ func main() {
 		//fmt.Printf("Playing %s against %s, Score is %d (Shape) + %d (Outcome)\n", conv_shape(line[1]), conv_shape(line[0]), ss, os)
 	}
 
-	fmt.Printf("Total score: %d", total_score)
+	fmt.Printf("Total score: %d\n", total_score)
 }
 
 func shape_score(choice string) int {
